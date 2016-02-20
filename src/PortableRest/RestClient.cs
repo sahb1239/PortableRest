@@ -418,7 +418,7 @@ namespace PortableRest
             var rawResponseContent = await GetRawResponseContent(httpResponseMessage).ConfigureAwait(false);
             if (string.IsNullOrEmpty(rawResponseContent)) return null;
             // ReSharper disable once CSharpWarnings::CS0618
-            if (typeof(T) == typeof(string) || restRequest.ReturnRawString)
+            if (typeof(T) == typeof(string))
             {
                 return rawResponseContent as T;
             }
