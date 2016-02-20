@@ -34,7 +34,7 @@ namespace PortableRest.Tests
 
             // Validate
             response.HttpResponseMessage.StatusCode.Should().Be(HttpStatusCode.NotFound);
-            response.Content.Should().BeNull();
+            response.Content.Should().BeNullOrEmpty();
         }
 
         [TestMethod]
@@ -53,7 +53,7 @@ namespace PortableRest.Tests
 
             // Validate
             response.HttpResponseMessage.StatusCode.Should().Be(HttpStatusCode.InternalServerError);
-            response.Content.Should().BeNull();
+            response.Content.Should().BeNullOrEmpty();
         }
 
         [TestMethod]
