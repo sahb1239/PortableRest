@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24713.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableRest", "PortableRest\PortableRest.csproj", "{A3546D1A-CE87-49BB-800A-98018C1FCA00}"
 EndProject
@@ -39,6 +39,7 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A3546D1A-CE87-49BB-800A-98018C1FCA00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A3546D1A-CE87-49BB-800A-98018C1FCA00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3546D1A-CE87-49BB-800A-98018C1FCA00}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{A3546D1A-CE87-49BB-800A-98018C1FCA00}.Debug|ARM.ActiveCfg = Debug|Any CPU
 		{A3546D1A-CE87-49BB-800A-98018C1FCA00}.Debug|ARM.Build.0 = Debug|Any CPU
 		{A3546D1A-CE87-49BB-800A-98018C1FCA00}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -87,6 +88,7 @@ Global
 		{EE7DCA96-146F-496B-9C8E-5368487DEE82}.Release-Signed|x86.Build.0 = Release-Signed|Any CPU
 		{4766A70B-7C1B-42EC-913A-01CA368049A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4766A70B-7C1B-42EC-913A-01CA368049A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4766A70B-7C1B-42EC-913A-01CA368049A5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{4766A70B-7C1B-42EC-913A-01CA368049A5}.Debug|ARM.ActiveCfg = Debug|Any CPU
 		{4766A70B-7C1B-42EC-913A-01CA368049A5}.Debug|ARM.Build.0 = Debug|Any CPU
 		{4766A70B-7C1B-42EC-913A-01CA368049A5}.Debug|x64.ActiveCfg = Debug|Any CPU
